@@ -1,0 +1,86 @@
+<!-- contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Restaurant - Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans bg-[#FFF8DC]"> <!-- Light butter yellow background -->
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-5 shadow-lg bg-white sticky top-0 z-10 border-b-2 border-red-100">
+    <h1 class="text-3xl font-extrabold text-red-600 tracking-wider hover:text-red-700 transition duration-300 cursor-pointer">
+      FoodHub
+    </h1>
+    <ul class="flex gap-8 text-lg font-medium">
+      <li>
+        <a href="index.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">Home</a>
+      </li>
+      <li>
+        <a href="menu.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">Menu</a>
+      </li>
+      <li>
+        <a href="about.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">About</a>
+      </li>
+      <li>
+        <a href="contact.html" class="text-red-600 border-b-2 border-red-600 pb-1 font-semibold">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="max-w-4xl mx-auto py-16 px-4">
+    <h3 class="text-4xl font-extrabold text-center mb-12 text-gray-900 border-b-4 border-red-600 inline-block px-4 pb-2 mx-auto tracking-wider">
+      📧 Get In Touch
+    </h3>
+
+    <div class="bg-red-900 p-8 rounded-xl shadow-2xl"> <!-- Dark maroon background -->
+      
+      <!-- Contact Form -->
+      <form class="grid gap-6 max-w-lg mx-auto">
+        <input 
+          type="text" 
+          placeholder="Your Full Name" 
+          class="border-2 border-gray-300 focus:border-red-600 p-4 rounded-lg outline-none transition duration-300 placeholder-gray-200 bg-white" 
+        />
+        
+        <input 
+          type="email" 
+          placeholder="Your Email Address" 
+          class="border-2 border-gray-300 focus:border-red-600 p-4 rounded-lg outline-none transition duration-300 placeholder-gray-200 bg-white" 
+        />
+        
+        <textarea 
+          placeholder="Your Message or Inquiry" 
+          class="border-2 border-gray-300 focus:border-red-600 p-4 rounded-lg h-40 outline-none transition duration-300 placeholder-gray-200 bg-white"
+        ></textarea>
+        
+        <button 
+          class="bg-red-600 text-white text-xl px-6 py-4 rounded-lg font-bold hover:bg-red-700 transition duration-300 shadow-lg transform hover:scale-[1.01]"
+        >
+          Send Message
+        </button>
+      </form>
+
+      <!-- Location Info -->
+      <div class="text-center mt-10 pt-6 border-t border-gray-300">
+        <p class="text-lg font-semibold mb-2 text-white">Our Location & Hours</p>
+        <p class="text-gray-200">123 FoodHub Avenue, Restaurant City</p>
+        <p class="text-gray-200">Open Daily: 11:00 AM - 10:00 PM</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white p-6 text-center">
+    © 2025 FoodHub Restaurant
+  </footer>
+
+</body>
+</html>

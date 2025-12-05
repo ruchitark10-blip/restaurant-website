@@ -1,0 +1,372 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Restaurant - Home</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<nav class="flex justify-between items-center p-5 shadow-lg bg-white sticky top-0 z-10 border-b-2 border-red-100">
+  
+  <h1 class="text-3xl font-extrabold text-red-600 tracking-wider hover:text-red-700 transition duration-300 cursor-pointer">
+    FoodHub
+  </h1>
+  
+  <ul class="flex gap-8 text-lg font-medium">
+    <li>
+      <a href="index.html" class="text-red-600 border-b-2 border-red-600 pb-1 font-semibold">
+        Home
+      </a>
+    </li>
+    <li>
+      <a href="menu.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">
+        Menu
+      </a>
+    </li>
+    <li>
+      <a href="about.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">
+        About
+      </a>
+    </li>
+    <li>
+      <a href="contact.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+  <header class="h-[80vh] bg-cover bg-center flex flex-col items-center justify-center text-center p-8" style="background-image:url('C:\Users\mahesh\Desktop\resturant\assets\images\hero.png')">
+
+    <div class="bg-black/65 p-6 sm:p-10 rounded-xl shadow-2xl backdrop-blur-sm transform transition duration-500 hover:scale-[1.01]">
+      
+      <h2 class="text-6xl sm:text-7xl text-white font-black tracking-tight mb-4">
+        Taste the Difference
+      </h2>
+      
+      <p class="text-xl sm:text-2xl text-red-400 font-light italic">
+        Fresh ingredients, unforgettable flavors.
+      </p>
+      
+      <a href="menu.html" class="mt-8 inline-block bg-red-600 text-white text-xl font-semibold px-10 py-3 rounded-full hover:bg-red-700 transition duration-300 shadow-xl border-2 border-white/50">
+        Explore Our Menu
+      </a>
+    </div>
+</header>
+
+
+  <section class="max-w-6xl mx-auto py-16 px-4 bg-gray-50">
+    <h3 class="text-4xl font-extrabold text-center mb-12 text-gray-900 border-b-4 border-red-600 inline-block px-4 pb-2 mx-auto tracking-wider">
+        ⭐ Popular Dishes
+    </h3>
+    
+    <div class="grid md:grid-cols-3 gap-8">
+        
+        <div class="bg-white rounded-xl shadow-2xl overflow-hidden text-center transform hover:scale-[1.05] transition duration-300 group cursor-pointer border-t-8 border-red-600">
+            <img src="C:\Users\mahesh\Downloads\dish1.png" alt="Paneer Tikka" class="w-full h-64 object-cover object-center group-hover:opacity-90 transition duration-300" />
+            <div class="p-5">
+                <h4 class="text-2xl font-bold text-red-700 mb-1">Paneer Tikka</h4>
+                <p class="text-gray-600 text-base italic">Grilled Indian cheese marinated in spices.</p>
+                <button class="mt-4 bg-red-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300 shadow-md">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-xl shadow-2xl overflow-hidden text-center transform hover:scale-[1.05] transition duration-300 group cursor-pointer border-t-8 border-red-600">
+            <img src="C:\Users\mahesh\Downloads\dish2.png" alt="Veg Biryani" class="w-full h-64 object-cover object-center group-hover:opacity-90 transition duration-300" />
+            <div class="p-5">
+                <h4 class="text-2xl font-bold text-red-700 mb-1">Veg Biryani</h4>
+                <p class="text-gray-600 text-base italic">Aromatic rice dish with mixed vegetables.</p>
+                <button class="mt-4 bg-red-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300 shadow-md">Order Now</button>
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-xl shadow-2xl overflow-hidden text-center transform hover:scale-[1.05] transition duration-300 group cursor-pointer border-t-8 border-red-600">
+            <img src="C:\Users\mahesh\Downloads\dish3.png" alt="Pasta Alfredo" class="w-full h-64 object-cover object-center group-hover:opacity-90 transition duration-300" />
+            <div class="p-5">
+                <h4 class="text-2xl font-bold text-red-700 mb-1">Pasta Alfredo</h4>
+                <p class="text-gray-600 text-base italic">Creamy pasta with rich Parmesan sauce.</p>
+                <button class="mt-4 bg-red-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300 shadow-md">Order Now</button>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+  <footer class="bg-gray-900 text-white p-6 text-center">© 2025 FoodHub Restaurant</footer>
+
+</body>
+
+</html>
+
+
+
+<!-- menu.html -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Restaurant - Menu</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="font-sans bg-white">
+
+  <nav class="flex justify-between items-center p-4 shadow">
+
+    <h1 class="text-2xl font-bold text-red-600">FoodHub</h1>
+
+    <ul class="flex gap-6 text-lg">
+
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="menu.html">Menu</a></li>
+
+      <li><a href="about.html">About</a></li>
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+
+
+<section class="max-w-5xl mx-auto py-16 px-4 bg-gray-50">
+  
+  <h3 class="text-4xl font-extrabold text-center mb-12 text-gray-900 border-b-4 border-red-600 inline-block px-4 pb-2 mx-auto tracking-wider">
+    🍽️ Our Culinary Delights
+  </h3>
+  
+  <div class="grid lg:grid-cols-2 gap-10">
+    
+    <div class="bg-white p-6 sm:p-8 rounded-xl shadow-2xl border-l-8 border-red-600 transform hover:translate-y-[-5px] transition duration-300">
+      <h4 class="text-3xl font-bold mb-5 text-gray-900 border-b pb-2 flex items-center gap-3">
+        Starters <span class="text-red-600 text-sm font-normal">(Appetizers)</span>
+      </h4>
+      <ul class="space-y-4 text-lg">
+        <li class="flex justify-between items-center pb-2 border-b border-gray-100 last:border-b-0">
+          <span class="font-semibold text-gray-800">Paneer Tikka</span>
+          <span class="text-red-600 font-bold">₹150</span>
+        </li>
+        <li class="flex justify-between items-center pb-2 border-b border-gray-100 last:border-b-0">
+          <span class="font-semibold text-gray-800">Veg Crispy</span>
+          <span class="text-red-600 font-bold">₹120</span>
+        </li>
+        <li class="flex justify-between items-center pb-2 last:border-b-0">
+          <span class="font-semibold text-gray-800">Hara Bhara Kebab</span>
+          <span class="text-red-600 font-bold">₹130</span>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="bg-white p-6 sm:p-8 rounded-xl shadow-2xl border-l-8 border-red-600 transform hover:translate-y-[-5px] transition duration-300">
+      <h4 class="text-3xl font-bold mb-5 text-gray-900 border-b pb-2 flex items-center gap-3">
+        Main Course <span class="text-red-600 text-sm font-normal">(Entrees)</span>
+      </h4>
+      <ul class="space-y-4 text-lg">
+        <li class="flex justify-between items-center pb-2 border-b border-gray-100 last:border-b-0">
+          <span class="font-semibold text-gray-800">Veg Biryani</span>
+          <span class="text-red-600 font-bold">₹200</span>
+        </li>
+        <li class="flex justify-between items-center pb-2 border-b border-gray-100 last:border-b-0">
+          <span class="font-semibold text-gray-800">Paneer Butter Masala</span>
+          <span class="text-red-600 font-bold">₹220</span>
+        </li>
+        <li class="flex justify-between items-center pb-2 last:border-b-0">
+          <span class="font-semibold text-gray-800">Dal Tadka</span>
+          <span class="text-red-600 font-bold">₹150</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+  <footer class="bg-gray-900 text-white p-6 text-center">© 2025 FoodHub Restaurant</footer>
+
+</body>
+
+</html>
+
+
+
+<!-- about.html -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Restaurant - About</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="font-sans bg-white">
+
+  <nav class="flex justify-between items-center p-4 shadow">
+
+    <h1 class="text-2xl font-bold text-red-600">FoodHub</h1>
+
+    <ul class="flex gap-6 text-lg">
+
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="menu.html">Menu</a></li>
+
+      <li><a href="about.html">About</a></li>
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+
+
+  <section class="max-w-5xl mx-auto py-16 px-4 bg-gray-50">
+    
+    <h3 class="text-4xl font-extrabold text-center mb-12 text-gray-900 border-b-4 border-red-600 inline-block px-4 pb-2 mx-auto tracking-wider">
+        ⭐ About Us
+    </h3>
+    
+    <div class="bg-white p-8 rounded-xl shadow-2xl">
+        
+        <img src="C:\Users\mahesh\Downloads\aboutus.png" alt="Our Restaurant Interior or Chef" class="w-full h-80 object-cover object-center rounded-lg shadow-xl mb-8 border-4 border-gray-100" />
+        
+        <p class="text-xl leading-relaxed text-gray-700 mb-6 border-l-4 border-red-600 pl-4">
+            FoodHub is more than just a place to eat—it's a passion project turned successful family-style restaurant. We are dedicated to serving fresh, delicious meals crafted with love and the finest, hand-picked ingredients.
+        </p>
+        
+        <p class="text-xl leading-relaxed text-gray-700">
+            Founded in 2020, our simple philosophy is built around two key pillars: Uncompromising Quality Ingredients and Exceptional Service. We believe a truly great meal should be an unforgettable experience in a warm, welcoming atmosphere.
+        </p>
+        
+    </div>
+</section>
+
+
+  <footer class="bg-gray-900 text-white p-6 text-center">© 2025 FoodHub Restaurant</footer>
+
+</body>
+
+</html>
+
+
+
+<!-- contact.html -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Restaurant - Contact</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="font-sans bg-white">
+
+  <nav class="flex justify-between items-center p-4 shadow">
+
+    <h1 class="text-2xl font-bold text-red-600">FoodHub</h1>
+
+    <ul class="flex gap-6 text-lg">
+
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="menu.html">Menu</a></li>
+
+      <li><a href="about.html">About</a></li>
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+
+
+ <section class="max-w-4xl mx-auto py-16 px-4 bg-gray-50">
+  
+  <h3 class="text-4xl font-extrabold text-center mb-12 text-gray-900 border-b-4 border-red-600 inline-block px-4 pb-2 mx-auto tracking-wider">
+    📧 Get In Touch
+  </h3>
+  
+  <div class="bg-white p-8 rounded-xl shadow-2xl border-t-8 border-red-600">
+    
+    <form class="grid gap-6 max-w-lg mx-auto">
+      
+      <input 
+        type="text" 
+        placeholder="Your Full Name" 
+        class="border-2 border-gray-300 focus:border-red-600 p-4 rounded-lg outline-none transition duration-300 placeholder-gray-500" 
+      />
+      
+      <input 
+        type="email" 
+        placeholder="Your Email Address" 
+        class="border-2 border-gray-300 focus:border-red-600 p-4 rounded-lg outline-none transition duration-300 placeholder-gray-500" 
+      />
+      
+      <textarea 
+        placeholder="Your Message or Inquiry" 
+        class="border-2 border-gray-300 focus:border-red-600 p-4 rounded-lg h-40 outline-none transition duration-300 placeholder-gray-500"
+      ></textarea>
+      
+      <button 
+        class="bg-red-600 text-white text-xl px-6 py-4 rounded-lg font-bold hover:bg-red-700 transition duration-300 shadow-lg transform hover:scale-[1.01]"
+      >
+        Send Message
+      </button>
+      
+    </form>
+    
+    <div class="text-center mt-10 pt-6 border-t border-gray-200">
+      <p class="text-lg font-semibold mb-2 text-gray-800">Our Location & Hours</p>
+      <p class="text-gray-600">123 FoodHub Avenue, Restaurant City</p>
+      <p class="text-gray-600">Open Daily: 11:00 AM - 10:00 PM</p>
+    </div>
+    
+  </div>
+</section>
+
+  <footer class="bg-gray-900 text-white p-6 text-center">© 2025 FoodHub Restaurant</footer>
+
+</body>
+
+</html> 

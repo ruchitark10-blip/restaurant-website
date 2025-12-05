@@ -1,0 +1,74 @@
+<!-- menu.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Restaurant - Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans bg-[#FFF8DC]"> <!-- Light butter yellow background -->
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-5 shadow-lg bg-white sticky top-0 z-10 border-b-2 border-red-100">
+    <h1 class="text-3xl font-extrabold text-red-600 tracking-wider hover:text-red-700 transition duration-300 cursor-pointer">
+      FoodHub
+    </h1>
+    <ul class="flex gap-8 text-lg font-medium">
+      <li><a href="index.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">Home</a></li>
+      <li><a href="menu.html" class="text-red-600 border-b-2 border-red-600 pb-1 font-semibold">Menu</a></li>
+      <li><a href="about.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">About</a></li>
+      <li><a href="contact.html" class="text-gray-800 hover:text-red-600 transition duration-300 pb-1 border-b-2 border-transparent hover:border-red-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Menu Section -->
+  <section class="max-w-6xl mx-auto py-16 px-4">
+    <h3 class="text-4xl font-extrabold text-center mb-12 text-gray-900 border-b-4 border-red-600 inline-block px-4 pb-2 mx-auto tracking-wider">
+      🍽️ Our Menu
+    </h3>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+      
+      <!-- Dish Card 1 -->
+      <div class="bg-[#800000] text-yellow-200 rounded-xl shadow-2xl overflow-hidden text-center transform hover:scale-[1.05] transition duration-300 group cursor-pointer border-t-8 border-red-600">
+        <img src="dish1.png" alt="Paneer Tikka" class="w-full h-64 object-cover object-center group-hover:opacity-90 transition duration-300" />
+        <div class="p-5">
+          <h4 class="text-2xl font-bold mb-1">Paneer Tikka</h4>
+          <p class="italic">Grilled Indian cheese marinated in spices.</p>
+          <span class="block text-xl font-semibold mt-2">₹150</span>
+          <button class="mt-4 bg-red-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300 shadow-md">Order Now</button>
+        </div>
+      </div>
+
+      <!-- Dish Card 2 -->
+      <div class="bg-[#800000] text-yellow-200 rounded-xl shadow-2xl overflow-hidden text-center transform hover:scale-[1.05] transition duration-300 group cursor-pointer border-t-8 border-red-600">
+        <img src="dish2.png" alt="Veg Biryani" class="w-full h-64 object-cover object-center group-hover:opacity-90 transition duration-300" />
+        <div class="p-5">
+          <h4 class="text-2xl font-bold mb-1">Veg Biryani</h4>
+          <p class="italic">Aromatic rice dish with mixed vegetables.</p>
+          <span class="block text-xl font-semibold mt-2">₹200</span>
+          <button class="mt-4 bg-red-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300 shadow-md">Order Now</button>
+        </div>
+      </div>
+
+      <!-- Dish Card 3 -->
+      <div class="bg-[#800000] text-yellow-200 rounded-xl shadow-2xl overflow-hidden text-center transform hover:scale-[1.05] transition duration-300 group cursor-pointer border-t-8 border-red-600">
+        <img src="dish3.png" alt="Pasta Alfredo" class="w-full h-64 object-cover object-center group-hover:opacity-90 transition duration-300" />
+        <div class="p-5">
+          <h4 class="text-2xl font-bold mb-1">Pasta Alfredo</h4>
+          <p class="italic">Creamy pasta with rich Parmesan sauce.</p>
+          <span class="block text-xl font-semibold mt-2">₹180</span>
+          <button class="mt-4 bg-red-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300 shadow-md">Order Now</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white p-6 text-center">© 2025 FoodHub Restaurant</footer>
+
+</body>
+</html>
